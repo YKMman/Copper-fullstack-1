@@ -1,0 +1,25 @@
+@import '../stylesDev/style.css';
+
+/* ? header */
+.header{
+    background: linear-gradient(278.32deg, #0B3F37 47.97%, #CB8D62 136.33%);
+}
+
+/* ? catalog */
+.catalog{
+    padding-top: 180px;
+
+}
+
+.catalog__top{
+    font-weight: 500;
+    display: flex;
+    font-size: 18px;
+    line-height: 17px;
+    color: #031412;
+    column-gap: 2px;
+}
+
+.catalog__top span{
+    font-weight: 600;
+}

@@ -1,0 +1,49 @@
+.title--h2{
+    margin-bottom: 45px;
+    font-family: 'Lighthaus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 37px;
+    text-align: center;
+    color: #031412;
+}
+
+@media(max-width: 768px) {
+    .title--h2{
+        margin-bottom: 37px;
+        font-size: 40px;
+        line-height: 30px;
+    }
+}
+
+@media(max-width: 425px) {
+    .title--h2{
+        margin-bottom: 23px;
+        font-size: 24px;
+        line-height: 18px;
+    }
+}
+
+.btn--main{
+    display: inline-block;
+    max-width: 327px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+    transition: 0.45s ease;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.btn--main:hover{
+    color: black;
+}
+
+
+
